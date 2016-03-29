@@ -1,0 +1,16 @@
+package Main;
+
+import View.View;
+
+public class Main {
+
+	public static void main(String[] args){ 
+		//View v = new View();
+		greet("Fucker");
+		
+	}
+	String name = "Marwin";
+    public static String greet(String yourName) {
+        return String.format("Hi %s, my name is %s", name, yourName);
+    }
+}
